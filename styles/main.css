@@ -441,7 +441,8 @@ textarea {
   color: #000;
   padding: 0.2em 0;
 }
-
+/*************************************************************
+**************************************************************/
 /* mobile first
 *
 *
@@ -449,15 +450,14 @@ textarea {
 
 .container {
   max-width: 375px;
-  border: 2px red solid;
 }
 /* header */
 header {
-  height: 100vh;
+  height: 70vh;
   background-image: url("../images/mobile/image-header.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
   padding-top: 1em;
   padding-left: 2.5em;
   padding-right: 2.5em;
@@ -487,24 +487,19 @@ header h1 {
   color: white;
   font-family: "Fraunces", serif;
   font-weight: 600;
-  margin-top: 1.8em;
+  margin-top: 1.2em;
   font-size: 3em;
 }
 
-header svg {
-  margin: 2.5em;
+.header__svg-arrow{
+  margin: 5.3em 0 0 0;
 }
-
 /* section 
 *
 *
 *
 */
 
-section {
-  max-width: 375px;
-  border: solid blue 1px;
-}
 .bg-egg {
   background-image: url(../images/mobile/image-transform.jpg);
   background-size: 100%;
@@ -561,11 +556,34 @@ article a {
   text-decoration-thickness: 5px;
 }
 
-/* attribution */
+.bg-graphic-design {
+  background-image: url(../images/mobile/image-graphic-design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.bg-photography {
+  background-image: url(../images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-end;
+}
+
+.services__div {
+  width: 85%;
+  text-align: center;
+  height: 33%;
+}
+/* attribution
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
