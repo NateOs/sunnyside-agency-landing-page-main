@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet" type="text/css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
@@ -11,24 +14,14 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+  
+    <link rel="stylesheet" href="./styles/main.css" />
+   
     <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <!-- 
 * Mobile First Approah
-    *Create layout as appears on mobile as fully featured as possible
     * Expand mobile to full with required min-width
     * Transform mobile to desktop with required breakpoint
     * Add all features and stylings and animations
@@ -38,9 +31,9 @@
       <!-- start navbar -->
       <nav>
         <div class="logo">
-          <p>sunnyside</p>
+          <p class="nav__logo">sunnyside</p>
         </div>
-        <div>
+        <div class="nav__menu">
           <ul>
             <li>About</li>
             <li>Services</li>
@@ -50,10 +43,21 @@
             </li>
           </ul>
         </div>
+        <div>
+          <i class="nav__toggle">
+            <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z"
+                fill="#FFF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </i>
+        </div>
       </nav>
       <!-- end navbar -->
       <div>
-        <h1>We are creatives</h1>
+        <h1>WE ARE CREATIVES</h1>
         <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
           <g
             stroke="#FFF"
