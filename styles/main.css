@@ -89,7 +89,7 @@ header h1 {
   align-items: center;
   justify-content: center;
 }
-.header-text svg{
+.header-text svg {
   margin-top: 20vh;
 }
 /* .header__svg-arrow {
@@ -177,7 +177,10 @@ article a {
   display: flex;
   align-items: flex-end;
 }
+/* 
 
+Services
+*/
 .services__div {
   width: 90%;
   text-align: center;
@@ -211,10 +214,15 @@ article a {
   color: hsl(167, 40%, 24%);
 }
 
+/*
+
+testimonials
+
+*/
 .testimonials__heading {
   text-align: center;
   font-size: 1em;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   color: hsl(210, 4%, 67%);
   margin-top: 3.5em;
   letter-spacing: 3px;
@@ -226,27 +234,65 @@ article a {
   text-align: center;
   line-height: 1.5;
   font-size: 1em;
-  color: hsl(210, 4%, 67%)
+  color: hsl(210, 4%, 67%);
 }
-.testimonials__div h4{
+.testimonials__div h4 {
   text-align: center;
   font-size: 1em;
-  font-family: 'Fraunces', serif;
-  color: hsl(212, 27%, 19%)
+  font-family: "Fraunces", serif;
+  color: hsl(212, 27%, 19%);
 }
-.testimonials__div p:first-of-type{
- line-height: 1.5em;
- font-size: 1.1em;
- margin-bottom: 2em;
- color: hsl(232, 10%, 55%);
+.testimonials__div p:first-of-type {
+  line-height: 1.5em;
+  font-size: 1.1em;
+  margin-bottom: 2em;
+  color: hsl(232, 10%, 55%);
 }
 
-.testimonials__div img{
+.testimonials__div img {
   width: 20%;
   margin: 1.8em auto;
   border-radius: 50%;
-
 }
+
+/* 
+
+footer
+
+*/
+footer {
+  padding: 4em 0;
+  background-color: hsl(167, 44%, 70%);
+}
+footer p {
+  font-size: 3em;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+  color: hsl(168, 34%, 31%);
+  text-align: center;
+}
+/* footer icons */
+footer div {
+  margin: 1em auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.grid-container {
+  color: hsl(168, 34%, 41%);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  width: 80%;
+  margin: 2em auto 3em auto;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.4em;
+}
+.grid-items {
+  text-align: right;
+  padding: 20px;
+}
+
 /* attribution
 .attribution {
   font-size: 11px;
