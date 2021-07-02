@@ -255,6 +255,48 @@ testimonials
   margin: 1.8em auto;
   border-radius: 50%;
 }
+/* 
+
+gallery
+
+*/
+
+.gallery__firstrow {
+  display: flex;
+}
+
+.bg-bottles {
+  background: url("../images/mobile/image-gallery-milkbottles.jpg");
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 50vw;
+  background-size: 100%;
+  background-position: center bottom;
+}
+.bg-orange {
+  background: url("../images/mobile/image-gallery-orange.jpg");
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 50vw;
+  background-size: 100%;
+  background-position: center bottom;
+}
+.bg-cone {
+  background: url("../images/mobile/image-gallery-cone.jpg");
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 50vw;
+  background-size: 100%;
+  background-position: center bottom;
+}
+.bg-cubes {
+  background: url("../images/mobile/image-gallery-sugar-cubes.jpg");
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 50vw;
+  background-size: 100%;
+  background-position: center bottom;
+}
 
 /* 
 
@@ -296,7 +338,7 @@ footer div {
 
 /* attribution */
 .attribution {
-  background-color:  hsl(167, 44%, 70%);
+  background-color: hsl(167, 44%, 70%);
   font-size: 11px;
   text-align: center;
   color: aliceblue;
