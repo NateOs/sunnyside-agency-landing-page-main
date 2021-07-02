@@ -336,6 +336,56 @@ footer div {
   padding: 20px;
 }
 
+/* 
+on screens greater than 1440
+*/
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-color: red;
+  }
+
+  header {
+    height: 100vh;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 2.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    text-align: center;
+  }
+
+  .nav__menu {
+    display: block;
+  }
+  .nav__menu ul {
+    display: flex;
+    align-items: center;
+  }
+  .nav__menu li {
+    padding-left: 2.5em;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-size: larger;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .header-text svg {
+    margin-top: 10vh;
+  }
+  .nav__button {
+    border-radius: 50px;
+    background: white;
+    border: solid white;
+    padding: 0.5em 0.9em;
+    font-family: "Fraunces", serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+}
 /* attribution */
 .attribution {
   background-color: hsl(167, 44%, 70%);
