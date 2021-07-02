@@ -41,20 +41,19 @@ img {
 ******/
 
 .container {
-  max-width: 375px;
+  /* max-width: 375px; */
 }
 /* header */
 header {
-  height: 70vh;
+  height: 80vh;
   background-image: url("../images/mobile/image-header.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   padding-top: 1em;
   padding-left: 2.5em;
   padding-right: 2.5em;
   text-align: center;
-  max-width: 375px;
 }
 
 nav {
@@ -79,13 +78,24 @@ header h1 {
   color: white;
   font-family: "Fraunces", serif;
   font-weight: 600;
-  margin-top: 1.2em;
-  font-size: 3em;
+  margin-top: 15vh;
+  font-size: 2.7em;
+  letter-spacing: 0.2em;
 }
 
-.header__svg-arrow {
-  margin: 5.3em 0 0 0;
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+.header-text svg{
+  margin-top: 10vh;
+}
+/* .header__svg-arrow {
+  /* margin: 5.3em 0 0 0; 
+} */
+
 /* section 
 *
 *
@@ -94,8 +104,10 @@ header h1 {
 
 .bg-egg {
   background-image: url(../images/mobile/image-transform.jpg);
-  background-size: 100%;
-  height: 45vh;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .bg-pink-cup {
@@ -128,7 +140,7 @@ article a {
   text-align: center;
   width: 85%;
   height: 47vh;
-  margin: 2em 2em;
+  margin: 2em 2em auto auto;
 }
 .article__heading {
   margin: 2em auto 1em auto;
@@ -222,10 +234,11 @@ article a {
   font-family: 'Fraunces', serif;
   color: hsl(212, 27%, 19%)
 }
-.testimonials__div p{
+.testimonials__div p:first-of-type{
  line-height: 1.5em;
  font-size: 1.1em;
  margin-bottom: 2em;
+ color: hsl(232, 10%, 55%);
 }
 
 .testimonials__div img{
