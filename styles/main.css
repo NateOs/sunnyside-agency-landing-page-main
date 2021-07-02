@@ -120,7 +120,7 @@ article h2 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: hsl(212, 27%, 19%);
-  font-size: 2em;
+  font-size: 2.3em;
   text-align: center;
 }
 
@@ -139,7 +139,7 @@ article a {
 .article__div {
   text-align: center;
   width: 85%;
-  height: 47vh;
+  height: 60vh;
   margin: 2em 2em auto auto;
 }
 .article__heading {
@@ -149,10 +149,11 @@ article a {
 .article__paragraph {
   line-height: 1.5;
   margin-bottom: 2.5em;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 .article__link {
   font-weight: 600;
+  font-size: 1.3em;
   text-decoration: none;
   text-decoration-line: underline;
   text-decoration-style: solid;
@@ -293,11 +294,13 @@ footer div {
   padding: 20px;
 }
 
-/* attribution
+/* attribution */
 .attribution {
+  background-color:  hsl(167, 44%, 70%);
   font-size: 11px;
   text-align: center;
+  color: aliceblue;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-} */
+}
