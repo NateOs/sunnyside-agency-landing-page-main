@@ -45,7 +45,7 @@ img {
 }
 /* header */
 header {
-  height: 80vh;
+  height: 100vh;
   background-image: url("../images/mobile/image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ header h1 {
   justify-content: center;
 }
 .header-text svg{
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 /* .header__svg-arrow {
   /* margin: 5.3em 0 0 0; 
