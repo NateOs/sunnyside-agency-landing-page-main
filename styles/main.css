@@ -484,6 +484,28 @@ header
   }
 
   /*  */
+  .testimonials-container {
+    display: flex;
+    min-height: 500px;
+    width: 80%;
+    margin: 3em auto;
+  }
+
+  .testimonials__div {
+    width: 30%;
+    margin: 1em auto;
+    text-align: center;
+    line-height: 2;
+    font-size: 1em;
+    color: hsl(210, 4%, 67%);
+    padding-top: 2em;
+  }
+  .testimonials__div p:first-of-type {
+    line-height: 2em;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    color: hsl(232, 10%, 55%);
+  }
 }
 /* attribution */
 .attribution {
