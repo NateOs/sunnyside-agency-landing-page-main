@@ -136,7 +136,13 @@ article a {
   color: hsl(212, 27%, 19%);
 }
 
-.article__div {
+.article__div1 {
+  text-align: center;
+  width: 85%;
+  height: 60vh;
+  margin: 2em 2em auto auto;
+}
+.article__div2 {
   text-align: center;
   width: 85%;
   height: 60vh;
@@ -341,10 +347,10 @@ on screens greater than 1440
 */
 
 @media only screen and (min-width: 1440px) {
-  body {
-    background-color: red;
-  }
+  /* 
+header
 
+*/
   header {
     height: 100vh;
     background-image: url("../images/desktop/image-header.jpg");
@@ -366,7 +372,7 @@ on screens greater than 1440
   }
   .nav__menu li {
     padding-left: 2.5em;
-    font-family: 'Barlow', sans-serif;
+    font-family: "Barlow", sans-serif;
     color: white;
     font-size: larger;
   }
@@ -385,6 +391,87 @@ on screens greater than 1440
     font-size: 1.2em;
     text-transform: uppercase;
   }
+
+  /* 
+  article transform etc
+  
+  */
+
+  .article__heading {
+    margin: 3em 3em 1.2em 0;
+    text-align: left;
+    width: 50%;
+  }
+
+  .article__paragraph {
+    line-height: 1.5;
+    margin-bottom: 2.5em;
+    font-size: 1.2em;
+  }
+  .article__link {
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: hsl(51, 100%, 49%);
+    text-decoration-thickness: 5px;
+  }
+  article p {
+    font-family: "Barlow", san-serif;
+    font-weight: 600;
+    color: hsl(210, 4%, 67%);
+  }
+
+  /* /* */
+
+  .article-container {
+    display: flex;
+    flex-direction: row-reverse;
+    max-height: 70vh;
+    min-height: 600px;
+  }
+  .article-container2 {
+    display: flex;
+    flex-direction: row;
+    max-height: 70vh;
+    min-height: 600px;
+  }
+
+  .article__div1 {
+    text-align: left;
+    width: 50%;
+    height: 80vh;
+    padding: 4em;
+    margin: 0;
+  }
+  .article__div2 {
+    text-align: left;
+    width: 50%;
+    height: 80vh;
+    padding: 4em;
+    margin: 0;
+  }
+  .bg-egg {
+    background-image: url(../images/desktop/image-transform.jpg);
+    height: 70vh;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 600px;
+  }
+  .bg-pink-cup {
+    background-image: url(../images/desktop/image-stand-out.jpg);
+    height: 70vh;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 600px;
+  }
+
+  /*  */
 }
 /* attribution */
 .attribution {
