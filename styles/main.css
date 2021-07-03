@@ -488,7 +488,7 @@ header
     display: flex;
     min-height: 500px;
     width: 80%;
-    margin: 3em auto;
+    margin: 3em auto 0 auto;
   }
 
   .testimonials__div {
@@ -506,11 +506,50 @@ header
     margin-bottom: 2em;
     color: hsl(232, 10%, 55%);
   }
+
+  /* / */
+  .gallery__article {
+    display: flex;
+  }
+
+  .bg-bottles {
+    background: url("../images/desktop/image-gallery-milkbottles.jpg");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 25vw;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  .bg-orange {
+    background: url("../images/desktop/image-gallery-orange.jpg");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 25vw;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  .bg-cone {
+    background: url("../images/desktop/image-gallery-cone.jpg");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 25vw;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  .bg-cubes {
+    background: url("../images/desktop/image-gallery-sugarcubes.jpg");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 25vw;
+    background-size: cover;
+    background-position: center bottom;
+  }
+
 }
 /* attribution */
 .attribution {
   background-color: hsl(167, 44%, 70%);
-  font-size: 11px;
+  font-size: 1em;
   text-align: center;
   color: aliceblue;
 }
