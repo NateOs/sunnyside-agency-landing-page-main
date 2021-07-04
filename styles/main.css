@@ -67,6 +67,9 @@ nav {
   font-weight: 600;
   font-size: 1.8em;
 }
+.nav__menu {
+  visibility: hidden;
+}
 @media only screen and (max-width: 375px) {
   .nav__menu {
     display: block;
@@ -396,8 +399,14 @@ header
     padding-right: 2.5em;
     text-align: center;
   }
+  nav {
+    margin-right: 3.5em;
+  }
   #nav__toggle {
     display: none;
+  }
+  .nav__menu {
+    visibility: visible;
   }
   .nav__menu ul {
     display: flex;
