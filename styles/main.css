@@ -157,13 +157,22 @@ article a {
   margin-bottom: 2.5em;
   font-size: 1.2em;
 }
-.article__link {
+.article__link--yellow {
   font-weight: 600;
   font-size: 1.3em;
   text-decoration: none;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-color: hsl(51, 100%, 49%);
+  text-decoration-thickness: 5px;
+}
+.article__link--pink {
+  font-weight: 600;
+  font-size: 1.3em;
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: hsl(7, 99%, 70%);
   text-decoration-thickness: 5px;
 }
 
@@ -345,7 +354,7 @@ footer div {
 /* 
 on screens greater than 1440
 */
-
+/*//////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-width: 1440px) {
   /* 
 header
@@ -596,5 +605,37 @@ header
   color: aliceblue;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(189, 45%, 44%);
+}
+
+/* link states */
+
+.nav__button:hover {
+  background: hsl(195, 94%, 74%);
+  border: solid hsl(195, 94%, 74%);
+  color: white;
+}
+
+.article__link--yellow:hover {
+  font-weight: 600;
+  font-size: 1.3em;
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: hsl(51, 100%, 49%);
+  text-decoration-thickness: 10px;
+}
+.article__link--pink:hover {
+  font-weight: 600;
+  font-size: 1.3em;
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: hsl(7, 99%, 70%);
+  text-decoration-thickness: 10px;
+}
+
+footer ul li:hover {
+color: white;
+cursor: pointer;
 }
