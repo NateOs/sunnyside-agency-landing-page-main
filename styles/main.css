@@ -167,6 +167,10 @@ article a {
   text-decoration-thickness: 5px;
 }
 
+/* 
+
+Services
+*/
 .bg-graphic-design {
   background-image: url(../images/mobile/image-graphic-design.jpg);
   background-size: cover;
@@ -184,10 +188,6 @@ article a {
   display: flex;
   align-items: flex-end;
 }
-/* 
-
-Services
-*/
 .services__div {
   width: 90%;
   text-align: center;
@@ -545,10 +545,40 @@ header
     background-position: center bottom;
   }
 
-  /* services */ 
-.services__container {
-  display: flex;
-}
+  /* services */
+  .services__container {
+    display: flex;
+  }
+
+  .bg-graphic-design {
+    background: url(../images/desktop/image-graphic-design.jpg) cover no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 50%;
+  }
+  .bg-photography {
+    background-image: url(../images/desktop/image-photography.jpg) no-repeat
+      cover;
+    background-position: center center;
+    height: 100vh;
+    width: 50%;
+  }
+  .services__div {
+    width: 60%;
+  }
+
+  .services__div h3 {
+    font-family: "Fraunces", serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 1em;
+  }
+  .services__div p {
+    font-family: "Barlow", sans serif;
+    line-height: 1.6;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
 
   /* footer */
   .grid-container {
