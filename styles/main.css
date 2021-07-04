@@ -180,7 +180,7 @@ article a {
   background-size: cover;
 }
 
-.flex {
+.flex-end-items {
   display: flex;
   align-items: flex-end;
 }
@@ -545,6 +545,18 @@ header
     background-position: center bottom;
   }
 
+  /* services */ 
+.services__container {
+  display: flex;
+}
+
+  /* footer */
+  .grid-container {
+    width: 35%;
+  }
+  footer div {
+    width: 10%;
+  }
 }
 /* attribution */
 .attribution {
