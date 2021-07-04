@@ -67,13 +67,38 @@ nav {
   font-weight: 600;
   font-size: 1.8em;
 }
-.nav__menu {
-  display: none;
+@media only screen and (max-width: 375px) {
+  .nav__menu {
+    display: block;
+    background: white;
+    position: absolute;
+    top: 6em;
+    width: 80%;
+    height: fit-content;
+    z-index: 3;
+    line-height: 4;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.5em;
+    color: hsl(206, 3%, 55%);
+    font-size: 1.2em;
+    padding: 2em 0;
+    visibility: hidden;
+  }
+  .nav__menu li button {
+    color: black;
+    font-family: "Fraunces", serif;
+    background: white;
+    border: white;
+    background: hsl(51, 99%, 49%);
+    border-radius: 50px;
+    padding: 1.5em 3em;
+  }
 }
 
-.nav__toggle {
-  padding-left: -2em;
+.active {
+  visibility: visible;
 }
+
 header h1 {
   color: white;
   font-family: "Fraunces", serif;
@@ -371,9 +396,8 @@ header
     padding-right: 2.5em;
     text-align: center;
   }
-
-  .nav__menu {
-    display: block;
+  #nav__toggle {
+    display: none;
   }
   .nav__menu ul {
     display: flex;
@@ -636,6 +660,6 @@ header
 }
 
 footer ul li:hover {
-color: white;
-cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
